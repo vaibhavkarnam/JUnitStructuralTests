@@ -1,0 +1,12 @@
+The test suite tests for all the conditions of valid input including
+leading whitespaces, trailing whitespaces and both of them. It also checks
+for empty string and only a single whitespace without any characters.
+the test suite acheives 100% branch coverage and from the structural testing
+scenario the implementation can be accepted.
+but the implementation does not pass all the tests.
+The function does not return correct value when there are trailing contiguous 
+whitespaces at the end of the string.
+In the test suite, an input of "vai   bhav  " should return the count as 2
+but the program returns 1.
+Thus since the implementation does not pass all the tests, 
+from functional testing scenario,it cannot be accepted since it has errors.
